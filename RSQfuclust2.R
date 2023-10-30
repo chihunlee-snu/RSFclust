@@ -178,7 +178,6 @@ RSKC.multidim <- function(x, ncl, l1bound = 3, alpha = 0.1, nrep = 20){
   return(list(labels = cl, weights = w))
 }
 
-RSKC.multidim(cbind(data, data, data, data)[1:100,], 4)
 
 
 
