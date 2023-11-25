@@ -1,7 +1,7 @@
 # RSFclust
 
 Requirements.R includes basic functions to run simulations and real data analysis, including the codes to obtain quantile and expectile curves using B-spline fits. 
-RSFclust2.R includes codes to run RSFclust2 algorithm, which is a modification of RSK-means(Robust and Sparse K-means) algorithm.
+RSFclust2.R includes codes to run RSFclust2 algorithm, which incorporates a modification of RSK-means(Robust and Sparse K-means) algorithm.
 
 Simulation - 2 clsuters.R includes the codes to run simulations with 2 clusters. It requires R functions in Requirements.R and RSFclust2.R.
 
