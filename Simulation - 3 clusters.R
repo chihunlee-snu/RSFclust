@@ -98,9 +98,9 @@ simulation3 <- function(num, sc, param = c(10, 0.5, 0, 0, 2.5, TRUE), curvenum =
       coef.mean[,j] = expec.curve.pspline(y, 0.5, n_breaks = n_breaks, num.knots = num.knots)
       
       if(j==1){
-        lambda0.3 = quant.aocv.select(y, 0.25)
-        lambda0.5 = quant.aocv.select(y, 0.5)
-        lambda0.7 = quant.aocv.select(y, 0.75)
+        lambda0.3 = quant.amcv.select(y, 0.25)
+        lambda0.5 = quant.amcv.select(y, 0.5)
+        lambda0.7 = quant.amcv.select(y, 0.75)
       }
       coef.qmedian[,j] = quant.curve.pspline(y, 0.5, lambda = lambda0.5)
       coef.q0.3[,j] = quant.curve.pspline(y, 0.25, lambda = lambda0.3)
