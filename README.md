@@ -11,4 +11,4 @@ Real data - Economic growth rate.R incudes the codes to apply RSFclust1, RSFclus
 
 Real data - Canadian weather.R includes the codes to apply RSFclust1, RSFclust2 to the Canadian weather data. It requires R functions in Requirements.R and RSFclust2.R.
 
-The results and figures of the simulation code and real data analysis are displayed in the paper "The use of quantile curves to extend the distribution scope of functional data in functional data clustering" by Chihoon Lee, Hee-Seok Oh and Joonpyo Kim.
+The results and figures of the simulation code and real data analysis are displayed in the paper "RSFclust: Robust sparse clustering of functional data using quantile curves" by Chihoon Lee, Hee-Seok Oh and Joonpyo Kim.
