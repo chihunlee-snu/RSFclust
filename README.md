@@ -9,6 +9,6 @@ Simulation - 3 clsuters.R includes the codes to run simulations with 3 clusters.
 
 Real data_GDP.R incudes the codes to apply RSFclust1, RSFclust2 to the economic growth rate data. It requires dataset realgdprate.csv, and R functions in Requirements.R and RSFclust2.R.
 
-Real data_CANADA.R includes the codes to apply RSFclust1, RSFclust2 to the Canadian weather data. It requires R functions in Requirements.R and RSFclust2.R.
+Real data_Canada.R includes the codes to apply RSFclust1, RSFclust2 to the Canadian weather data. It requires R functions in Requirements.R and RSFclust2.R.
 
 The results and figures of the simulation code and real data analysis are displayed in the paper "RSFclust: Robust sparse clustering of functional data using quantile curves" by Chihoon Lee, Hee-Seok Oh and Joonpyo Kim.
